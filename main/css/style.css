@@ -219,5 +219,44 @@ margin-top: 15px;
 .customers-say-section .testimonials .testimonial-inner .testimonial-content {
     position: absolute;
     bottom: 25px;
-
 }
+.customers-say-section .testimonials .testimonial-inner .testimonial-content:before {
+    content:"";
+    width:3px;
+    height:55px;
+    background-color: #fff;
+    position:absolute;
+    left:-10px;
+    top:5px;
+}
+.about-section {
+    background-image:   url("../images/about.jpg");
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-section h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px  dotted #7c7586;
+}
+
+.school-selection {
+    padding-top: 100px;
+    padding-bottom: 100px
+    text: center;
+}
+
+.school-section .school-inner {
+    background-image: url('../images/school.jpg');
+}
+
+.school-section .school-inner .school-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+}
+
+.school-section .school-inner .school-overlay. conference-date {
+    }
