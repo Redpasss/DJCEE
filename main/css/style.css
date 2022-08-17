@@ -1,0 +1,223 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+body {
+    background-color: #f9f9f9;
+}
+
+.pre-header {
+    background-color:#13181a;
+    height: 60px;
+    color: #fff;
+    padding-top: 15px;
+
+}
+
+.pre-header .secondary-menu{
+        list-style: none;
+}
+
+.pre-header .secondary-menu li{
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+.pre-header .secondary-menu li a {
+    color: #707374;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-nav .main-menu{
+    list-style: none;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main-nav .main-menu li {
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+.main-nav .main-menu li a {
+    color: #767676;
+    text-transform: uppercase;
+    
+}
+
+.main-cta-btn {
+    background-color: #4f33f1;
+    border: 1px solid #4f33f1;
+    padding: 10px;
+    color: #fff !important;
+    transition: 0.3s;
+    
+
+}
+
+.main-cta-btn:hover{
+    color: #4f33f1 !important;
+    background-color: transparent ;
+    text-decoration: none;
+}
+
+.main-nav img {
+margin-top: 15px;
+}
+.hero-section{
+    background-image: url('../images/hero.jpg');
+    padding-top: 225px;
+    padding-bottom: 115px;
+    background-size: cover;
+}
+.hero-section h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    color: #fff;
+    font-size: 23px;
+    font-weight:  bold;
+    margin-bottom: 15px;
+}
+.hero-section a{
+    background-color: #4f33f1;
+    border: 1px solid #4f33f1;
+    padding: 10px;
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+}
+.services-selection{
+    padding-top: 100px;
+    padding-bottom: 100;
+
+}
+
+.services-selection h3{
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.services-selection h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #343434;
+    font-weight: bold;
+}
+
+.services-selection p{
+    text-align: center;
+    color: #818181;
+}
+.services-selection .service-item{
+    background-color: #1b1f20;
+    -webkit-box-shadow: -19px 17px 19px -9px rgba(0,0,0,1);
+    -moz-box-shadow: -19px 17px 19px -9px rgba(0,0,0,1);
+    box-shadow: -19px 17px 19px -9px rgba(0,0,0,1);
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+.services-selection .service-item:hover{
+    background-color: #4c007b;
+    cursor: pointer;
+    margin-top: 15px;
+    -webkit-box-shadow: -19px 19px 22px -9px rgba(0,0,0,1);
+    -moz-box-shadow: -19px 19px 19px -9px rgba(0,0,0,1);
+    box-shadow: -19px 22px 21px -9px rgba(0,0,0,1);
+}
+
+.services-selection .service-item h4{
+    color:  #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.services-selection .service-item p{
+    color: #fff;
+    text-align: center;
+    
+}
+.services-selection .service-item a{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 5px;
+
+}
+.how-it-works-selection {
+    text-align: center;
+    background-image: url("../images/works.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    color: #fff;
+}
+.how-it-works-selection h3{
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.how-it-works-selection h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #343434;
+    font-weight: bold;
+}
+
+.how-it-works-selection p{
+    text-align: center;
+    color: #fff;
+}
+.how-it-works-selection a {
+    display: block;
+    position: relative;
+    bottom: -30px;
+}
+.how-it-works-selection .modal .modal-dialog {
+    max-width: 700px;
+}
+.how-it-works-selection .modal .modal-dialog .modal-content {
+    background-color: transparent;
+    border: 0;
+}
+.how-it-works-selection .modal .modal-dialog .modal-content .modal-header {
+    border-bottom: 0;
+}
+.how-it-works-selection .modal .modal-dialog .modal-content .modal-header button {
+    color: #fff;
+    font-size: 50px;
+}
+.customers-say-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.customers-say-section .testimonials {
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    color: #fff;
+}
+.customers-say-section .testimonials .testimonial-inner {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+.customers-say-section .testimonials .testimonial-inner .testimonial-content {
+    position: absolute;
+    bottom: 25px;
+
+}
