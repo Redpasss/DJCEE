@@ -40,12 +40,13 @@ body {
 .main-nav .main-menu li {
     display: inline-block;
     margin-left: 15px;
-    
+
 }
 
 .main-nav .main-menu li a {
     color: #767676;
     text-transform: uppercase;
+    text-decoration: none;
     
 }
 
@@ -231,6 +232,7 @@ margin-top: 15px;
 }
 .about-section {
     background-image:   url("../images/about.jpg");
+    background-size: cover;
     color: #fff;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -243,12 +245,13 @@ margin-top: 15px;
 
 .school-section {
     padding-top: 100px;
-    padding-bottom: 100px
-    text: center;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 .school-section .school-inner {
     background-image: url('../images/school.jpg');
+    background-size: cover;
 }
 
 .school-section .school-inner .school-overlay {
@@ -258,5 +261,74 @@ margin-top: 15px;
     color: #fff;
 }
 
-.school-section .school-inner .school-overlay. conference-date {
-    }
+.school-section .school-inner .school-overlay .conference-date span {
+    background-color: #2a66f7;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+.school-section .school-inner .school-overlay .countdown {
+    padding: 10px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 42px;
+    border: 1px solid #fff;
+}
+
+.school-section .school-inner .school-overlay .main-cta-btn {
+    margin-top: 20px;
+    display: inline-block;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 85% 100%, 0 100%);
+}
+
+.contact-section {
+     padding-top: 100px;
+     padding-bottom: 100px;
+     background-image:   url("../images/about.jpg");
+     background-size: cover;
+     color: #fff;
+}
+.contact-section .contact-container {
+    margin-top: 50px;
+}
+
+.contact-section h2, .contact-section p {
+    text-align: center;
+}
+
+.contact-section .contact-details {
+    text-align: left;
+}
+.contact-section .contact-details p {
+    text-align: left;
+}
+.contact-section form {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 50px;
+}
+.contact-section form textarea, .contact-section form input, .contact-section form button  {
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-bottom: 15px;
+    height: 40px;
+}
+.contact-section form textarea {
+    height: 80px;
+}
+.contact-section form button {
+    background-color: #1a7dfa;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+}
+.contact-section form label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255, 255 ,255 0.7);
+}
